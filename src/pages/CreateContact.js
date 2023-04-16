@@ -24,7 +24,7 @@ const CreateContact = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    const res = await fetch(`https://cms-backend-0bmb.onrender.com/contact`, {
+    const res = await fetch(`https://cms-backend-0bmb.onrender.com/api/contact`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
